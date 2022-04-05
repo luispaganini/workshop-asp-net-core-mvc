@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using sistema_web.Models;
+using sistema_web.Models.ViewModels;
 
 namespace sistema_web.Controllers;
 
@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewData["email"] = "Hello World";
         return View();
     }
 

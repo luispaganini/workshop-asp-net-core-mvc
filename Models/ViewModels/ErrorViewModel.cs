@@ -1,4 +1,4 @@
-namespace sistema_web.Models;
+namespace sistema_web.Models.ViewModels;
 
 public class ErrorViewModel
 {
